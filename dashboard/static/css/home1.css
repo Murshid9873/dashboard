@@ -1,0 +1,82 @@
+.d-flex{
+    width: 50%; 
+}
+.header{
+    margin-left: 70px;
+}
+.div1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 1100px;
+    gap: 20px;
+    margin-left: 70px;
+    
+}
+#pic1{
+    grid-row: 2/3;
+    grid-column: 2/4;
+}
+.cad{
+    width: 90%;
+    background-color: white;
+    height: 100%;
+    padding: 3%;
+    margin: 2%;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cad .card-img-top{
+    height: 200px;
+    width: 100%;
+}
+.cads{
+    width: 90%;
+    background-color: white;
+    height: 100%;
+    padding: 3%;
+    margin: 2%;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cads .card-img-top{
+    height: 200px;
+    width: 100%;
+}
+#pic2{
+    grid-row: 3/4;
+    grid-column: 1/3;
+}
+#pic3{
+   padding: 10%;
+
+}
+.side_bar{
+    
+    color:white;
+    width:100%;
+    height:810px;
+    background-color: #5252ce;
+    border-radius: 45px;        
+}
+
+#icons1{
+    
+    margin-top: 10px;
+   
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  #profile{
+    border-radius: 50%;
+   width:200px;
+   border-radius: 61%;
+   width: 100%;
+   margin:auto;
+   height: 65%;
+}
+  
